@@ -5,11 +5,30 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 60px;
+    background: #222;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: relative;
+}
+
+ul ol button{
+    color: white;
+    font-size: 15pxpx;
+    padding: 9px 20px;
+    margin: 9px 15px;
+}
 .container{
     width: 100%;
     min-height: 100vh;
-    background-color: #2876f9;
-background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);
+    background: linear-gradient(135deg , #153677, #4e085f);
     padding: 10px;
 }
 
@@ -110,5 +129,5 @@ ul li span{
 }
 
 ul li span:hover{
-    background: #edeef0;
+    background: #555;
 }
